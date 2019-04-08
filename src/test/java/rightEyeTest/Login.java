@@ -20,7 +20,7 @@ public class Login extends LoginPageObjects{
     }
 
     @Test(priority = 1)
-    public void checkSuccessfulLogin() {
+    public void checkSuccessfullLogin() {
         //Exception handling using try catch
         try {
             expectedMessage = "You have logged in successfully";
@@ -36,7 +36,7 @@ public class Login extends LoginPageObjects{
             Assert.assertEquals(actualMessage, expectedMessage);
         }
         catch (Exception ex){
-            System.out.println("Exception in checkSuccessfulLoing Method : " + ex);
+            System.out.println("Exception in checkSuccessfullLogin Method : " + ex);
         }
     }
 
