@@ -3,7 +3,7 @@ selenium project to test login functionality
 
 Website is created according to project document and is hosted on github https://dsah01.github.io/
 
-This project is created in TestNG framework using Selenium Webdriver
+This project is created in TestNG framework using Selenium Webdriver. 
 Maven is used as build automation tool.
 
 Following scenarios are covered
