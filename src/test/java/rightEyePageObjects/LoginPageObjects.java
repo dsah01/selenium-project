@@ -7,8 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-/* This pattern of having page objects separate helps to reduce the amount of duplicated code
-and resuse of code. Also, if the UI changes, the fix only need to be applied in one place */
+/* This pattern of having page objects separately helps to reduce the amount of duplicated code
+and offers reuse of code. Also, if the UI changes, the fix only need to be applied at one place */
 
 public abstract class LoginPageObjects {
 
